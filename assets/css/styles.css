@@ -3,6 +3,8 @@
     .nav {
     justify-content: center;
     text-align: justify;
+    font-size: large;
+    
         }
 
 
@@ -10,15 +12,17 @@
     ul li {
     list-style-type:none; 
     text-align: justify;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
         }
   
+    .box {
 
-    .box
-        {
     display: flex;
     justify-content: center;
     margin-top: 20px;   
-        }
+    }
 
 
     h3 {
@@ -27,6 +31,9 @@
     text-align: center;
     margin-top: 20px;
     text-align: justify;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   
     }
 
 
@@ -37,15 +44,61 @@
         text-align: justify;
         margin-left: 280px;
         margin-right: 280px;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 24px;
+        line-height: 1.7;
+        
     }
-
+    
 
 
     .cont {  
         
-        background-color: #28a796;
+        background-color: #1D5D9B;
         width: 60%; 
-        padding-top: 1%;
+        font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+       
+    }
+
+    .center {
+    text-align: center;
+    margin-top: 3%;
+    }
+
+    body {
+    background-image: url('./img/17973908.jpg');
+      background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
+      background-position: center; /* Coloca la imagen en el centro del fondo */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+    }
+
+    .navi {
+    background-color:#1D5D9B;
+    opacity: 100%;
+    }
+
+    .color {
+    color: white;
+    }
+
+   .marg{ 
+    margin-top: 5%;
+    margin-bottom: 5
+    }
     
+    .mart {
+        margin-bottom: 2ch;
+    }
+
+
+    .pa {
+    padding-block: 15%;
+    }
+
+    .f {
+    
+    width: 1000px;
+
     }
 
